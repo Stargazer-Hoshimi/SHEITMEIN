@@ -154,6 +154,11 @@
               </svg>
               Chat
             </router-link>
+              <router-link to="/profile" class="flex items-center text-gray-600 hover:text-indigo-600">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A9 9 0 1118.878 6.196a9 9 0 01-13.757 11.608z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>Profile</router-link>
           </nav>
         </div>
       </aside>
@@ -346,4 +351,5 @@
     </div>
   </body>
 </template>
+
 <style scoped></style>
